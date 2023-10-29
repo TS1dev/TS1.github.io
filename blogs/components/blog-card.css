@@ -17,7 +17,7 @@
 }
 .blog-card-image {
   width: 100%;
-  height: var(--dl-size-size-xxlarge);
+  height: 288px;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);

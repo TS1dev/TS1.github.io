@@ -17,7 +17,7 @@
 }
 .blog-card-image {
   width: 100%;
-  height: var(--dl-size-size-xxlarge);
+  height: 288px;
   object-fit: cover;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
@@ -83,19 +83,11 @@
 .blogs-link {
   text-decoration: none;
 }
-.blogs-link01 {
+.blogs-link1 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.blogs-link02 {
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.blogs-text {
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.blogs-link03 {
+.blogs-link2 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -152,51 +144,37 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.blogs-link04 {
+.blogs-link3 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link05 {
+.blogs-link4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link06 {
+.blogs-link5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-text3 {
+.blogs-text {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link07 {
+.blogs-link6 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link08 {
+.blogs-link7 {
   display: contents;
 }
 .blogs-component {
   text-decoration: none;
 }
-.blogs-container1 {
-  flex: 0 0 auto;
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.blogs-link09 {
+.blogs-link8 {
   display: contents;
 }
 .blogs-component1 {
   text-decoration: none;
-}
-@media(max-width: 1600px) {
-  .blogs-text {
-    text-decoration: none;
-  }
 }
 @media(max-width: 767px) {
   .blogs-navbar-interactive {
@@ -211,22 +189,22 @@
     align-items: center;
     justify-content: center;
   }
-  .blogs-link04 {
+  .blogs-link3 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link05 {
+  .blogs-link4 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link06 {
+  .blogs-link5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-text3 {
+  .blogs-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link07 {
+  .blogs-link6 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
