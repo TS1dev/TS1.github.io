@@ -165,14 +165,6 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.home-buttons {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .home-banner {
   width: 100%;
   display: flex;
@@ -390,6 +382,9 @@
   text-decoration: underline;
 }
 @media(max-width: 1600px) {
+  .home-link03 {
+    text-decoration: none;
+  }
   .home-gallery {
     width: 1544px;
   }
@@ -565,6 +560,7 @@
   }
   .home-text13 {
     width: auto;
+    font-size: 1.15rem;
   }
   .home-icon11 {
     margin-bottom: var(--dl-space-space-unit);
