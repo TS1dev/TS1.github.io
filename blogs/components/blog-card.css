@@ -35,13 +35,22 @@
 .blog-card-root-class-name1 {
   margin-top: var(--dl-space-space-sixunits);
 }
+.blog-card-root-class-name2 {
+  margin-top: var(--dl-space-space-sixunits);
+}
 @media(max-width: 767px) {
   .blog-card-root-class-name1 {
+    margin-top: 150px;
+  }
+  .blog-card-root-class-name2 {
     margin-top: 150px;
   }
 }
 @media(max-width: 479px) {
   .blog-card-root-class-name1 {
+    margin-top: 200px;
+  }
+  .blog-card-root-class-name2 {
     margin-top: 200px;
   }
 }

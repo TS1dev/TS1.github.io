@@ -35,13 +35,22 @@
 .blog-card-root-class-name1 {
   margin-top: var(--dl-space-space-sixunits);
 }
+.blog-card-root-class-name2 {
+  margin-top: var(--dl-space-space-sixunits);
+}
 @media(max-width: 767px) {
   .blog-card-root-class-name1 {
+    margin-top: 150px;
+  }
+  .blog-card-root-class-name2 {
     margin-top: 150px;
   }
 }
 @media(max-width: 479px) {
   .blog-card-root-class-name1 {
+    margin-top: 200px;
+  }
+  .blog-card-root-class-name2 {
     margin-top: 200px;
   }
 }
@@ -83,11 +92,11 @@
 .blogs-link {
   text-decoration: none;
 }
-.blogs-link1 {
+.blogs-link01 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.blogs-link2 {
+.blogs-link02 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -144,15 +153,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.blogs-link3 {
+.blogs-link03 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link4 {
+.blogs-link04 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link5 {
+.blogs-link05 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -160,20 +169,26 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link6 {
+.blogs-link06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.blogs-link7 {
+.blogs-link07 {
   display: contents;
 }
 .blogs-component {
   text-decoration: none;
 }
-.blogs-link8 {
+.blogs-link08 {
   display: contents;
 }
 .blogs-component1 {
+  text-decoration: none;
+}
+.blogs-link09 {
+  display: contents;
+}
+.blogs-component2 {
   text-decoration: none;
 }
 @media(max-width: 767px) {
@@ -189,14 +204,14 @@
     align-items: center;
     justify-content: center;
   }
-  .blogs-link3 {
+  .blogs-link03 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link4 {
+  .blogs-link04 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link5 {
+  .blogs-link05 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -204,7 +219,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .blogs-link6 {
+  .blogs-link06 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
